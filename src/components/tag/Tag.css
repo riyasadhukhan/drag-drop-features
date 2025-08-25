@@ -1,0 +1,23 @@
+.selected {
+  background-color: rgb(230, 167, 121);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.tag {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.html {
+  background-color: rgb(90, 205, 166);
+}
+.css {
+  background-color: rgb(150, 71, 223);
+}
+.javascript {
+  background-color: cornflowerblue;
+}
+.react {
+  background-color: darkkhaki;
+}

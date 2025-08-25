@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+.table-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.task-data {
+  box-shadow: 1px 1px 2px 2px #d9d8d8;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0px;
+  min-width: 300px;
+}
+.task-tags {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.fa-trash-can {
+  color: #959090;
+  height: 28px;
+  width: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.fa-trash-can:hover {
+  cursor: pointer;
+  color: #232222;
+  background-color: #e0dcdc;
+  border-radius: 50%;
+}
+.tag-group span {
+  padding: 4px;
+  border-radius: 5px;
+}
+.del-btn {
+  background-color: transparent;
+  border: none;
+}
