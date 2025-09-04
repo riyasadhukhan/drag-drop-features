@@ -28,6 +28,9 @@
 
 .tags {
   padding: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
 }
 
 input[type="text"] {
