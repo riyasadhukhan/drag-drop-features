@@ -1,0 +1,72 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.tags {
+  padding: 8px;
+}
+
+input[type="text"] {
+  font-size: 16px;
+  padding: 5px;
+  width: 90%;
+  margin: 0px 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#dropdown {
+  width: 40%;
+  margin: 10px;
+  font-size: 16px;
+  padding: 5px;
+}
+.tags-group {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 10px;
+  gap: 10px;
+}
+#save {
+  border: 1px solid #0077b3;
+  background-color: #0077b3;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+#cancel {
+  border: 1px solid #0077b3;
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #0077b3;
+  cursor: pointer;
+}

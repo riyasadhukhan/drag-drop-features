@@ -19,7 +19,8 @@
   justify-content: space-between;
   margin-top: 20px;
 }
-.fa-trash-can {
+.fa-trash-can,
+.fa-pen-to-square {
   color: #959090;
   height: 28px;
   width: 28px;
@@ -28,7 +29,8 @@
   align-items: center;
   border-radius: 50%;
 }
-.fa-trash-can:hover {
+.fa-trash-can:hover,
+.fa-pen-to-square:hover {
   cursor: pointer;
   color: #232222;
   background-color: #e0dcdc;

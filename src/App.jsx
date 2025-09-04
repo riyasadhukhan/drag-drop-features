@@ -5,6 +5,7 @@ import TaskTable from "./components/taskTable/TaskTable";
 
 function App() {
   const [taskData, setTaskData] = useState([]);
+
   return (
     <>
       <TaskForm taskData={taskData} setTaskData={setTaskData} />

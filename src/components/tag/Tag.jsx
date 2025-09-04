@@ -1,11 +1,11 @@
 import "../tag/Tag.css";
 
-const Tag = ({ tagName, onclick, isSelected }) => {
+const Tag = ({ tagName, onClick, isSelected }) => {
   console.log(tagName, isSelected);
   return (
     <button
       type="button"
-      onClick={onclick}
+      onClick={onClick}
       className={isSelected ? `selected ${tagName.toLowerCase()}` : "tag"}
     >
       {tagName}
